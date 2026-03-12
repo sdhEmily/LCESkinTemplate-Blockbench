@@ -1,7 +1,32 @@
 Plugin.register("lce_skin_template", {
     title: "LCE Skin Template",
+    description: "Loads a skin template compatible with PCK Studio.",
     author: "sdhEmily",
-    version: "1.2.0",
+    icon: "fa-share-from-square",
+    target: "Minecraft: Legacy Console Edition",
+    about: `Basic plugin that adds a loader to load a skin template compatible with PCK Studio.
+      <content class="markdown">
+                            <h3>
+                              <p>Good to know:</p>
+                            </h3>
+                            <p>
+                            <ul>
+                              <li>
+                                <p>This template is designed to create Minecraft LCE skins.</p>
+                              </li>
+                              <li>
+                                <p>LCE Skins have some limitations to keep in mind. No rotation is supported, no decimal sizes, the texture size is capped at 32kb otherwise other players will crash, and its best to keep textures within powers of 2.</p>
+                              </li>
+                              <li>
+                                <p>Make sure to export as a legacy project via <strong>File</strong> > <strong>Export</strong> > <strong>Export Legacy Project</strong> as PCK Studio doesn't support modern Blockbench projects.</p>
+                              </li>
+                            </ul>
+                            </p>
+                          </content>  
+    `,
+    min_version: "4.2.0",
+    creation_date: "2026-03-11",
+    version: "1.3.0",
     variant: "both",
 
     onload() {
@@ -36,7 +61,7 @@ Plugin.register("lce_skin_template", {
                                 <p>This template is designed to create Minecraft LCE skins.</p>
                               </li>
                               <li>
-                                <p>LCE Skins have some limitations to keep in mind. No rotation is supported, no decimal sizes and the texture size is capped at 32kb otherwise other players will crash.</p>
+                                <p>LCE Skins have some limitations to keep in mind. No rotation is supported, no decimal sizes, the texture size is capped at 32kb otherwise other players will crash, and its best to keep textures within powers of 2.</p>
                               </li>
                               <li>
                                 <p>Make sure to export as a legacy project via <strong>File</strong> > <strong>Export</strong> > <strong>Export Legacy Project</strong> as PCK Studio doesn't support modern Blockbench projects.</p>
