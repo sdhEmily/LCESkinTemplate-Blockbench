@@ -26,7 +26,7 @@ Plugin.register("lce_skin_template", {
     `,
     min_version: "4.2.0",
     creation_date: "2026-03-11",
-    version: "1.5.1",
+    version: "1.5.2",
     variant: "both",
 
     onload() {
