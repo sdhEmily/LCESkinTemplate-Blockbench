@@ -1,4 +1,6 @@
 # LCESkinTemplate-Blockbench
+### This repository has been archived as [PCK-Skin-Helper](https://github.com/BehaviorPack/PCK-Skin-Helper) does everything this plugin and more.
+
 Simple LCE Skin Template loader for Blockbench
 
 
